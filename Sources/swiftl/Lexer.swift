@@ -266,7 +266,7 @@ public class Lexer {
             
             if CharValue == ~0 {
                 Cursor.move()
-                NextToken = .StringLiteral(String(unicodeSequence.flatMap(UnicodeScalar.init).map(Character.init)))
+                NextToken = .StringLiteral(String(unicodeSequence.compactMap(UnicodeScalar.init).map(Character.init)))
                 return
             }
             else {

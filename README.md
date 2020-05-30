@@ -35,6 +35,12 @@ Rbrace EOF
 ```
 
 ## Installation
+### Swift Package
+```swift
+.package(url: "https://github.com/interfere/swiftl.git", from: "1.0.0")
+```
+
+### Manually
 Build sources using `xcodebuild`. No additional dependencies.
 
 ## License 

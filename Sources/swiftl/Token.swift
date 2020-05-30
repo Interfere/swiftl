@@ -113,7 +113,7 @@ public enum Token: Equatable {
 
 /// Parse identifiers
 public extension Token {
-    public init(identifier: String) {
+    init(identifier: String) {
         
         switch identifier {
         /// Decl keywords
